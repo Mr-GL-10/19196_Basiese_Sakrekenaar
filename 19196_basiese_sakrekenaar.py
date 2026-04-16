@@ -4,11 +4,12 @@ Basiese sak rekenaar wat kan maal, deel, optel en aftrek.
 
 running = True
 
+#Variables
 num1 = None
 num2 = None
 operator = None
 
-final_answer = ''
+final_answer = None
 
 # funksies
 def multiply(num1, num2):
@@ -26,7 +27,7 @@ def plus(num1, num2):
 def minus(num1, num2):
     return num1 - num2
 
-
+#Bedryfskode
 while running:
     user_input = input("Basiese Sakrekenaar:\n'help" \
     " - vir help.'\n>> ")
